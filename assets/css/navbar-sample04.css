@@ -1,0 +1,9 @@
+.navbar {
+  background-color: #f1f1f0 !important;
+}
+.navbar .navbar-right {
+  list-style: none;
+}
+.navbar .navbar-center ul .li {
+  margin-right: 20px;
+}/*# sourceMappingURL=navbar-sample04.css.map */

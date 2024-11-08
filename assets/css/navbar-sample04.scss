@@ -1,0 +1,14 @@
+$bg-color: #f1f1f0;
+.navbar {
+  background-color: $bg-color !important;
+  .navbar-right {
+    list-style: none;
+  }
+  .navbar-center {
+    ul {
+      .li {
+        margin-right: 20px;
+      }
+    }
+  }
+}
