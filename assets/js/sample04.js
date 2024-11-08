@@ -4,6 +4,6 @@ const remove = document.querySelector(".remove");
 searchIcon.addEventListener("click", function () {
   searchPopup.style.display = "block";
 });
-searchPopup.addEventListener("click", function () {
+remove.addEventListener("click", function () {
   searchPopup.style.display = "none";
 });
