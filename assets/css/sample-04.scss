@@ -282,3 +282,43 @@ body {
   }
 }
 // end video
+// start testimonials
+.testimonials {
+  .testimonial-title {
+    h3 {
+      font-size: $font-size-medium + 2;
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .swiper-slide {
+      blockquote {
+        text-align: center;
+        p {
+          font-size: 40px;
+          color: #8f8f8f;
+        }
+        div {
+          color: #8f8f8f;
+          font-size: $font-size-medium - 2;
+        }
+      }
+    }
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+}
+// end testimonials

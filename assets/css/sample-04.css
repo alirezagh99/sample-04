@@ -240,4 +240,34 @@ body {
   to {
     transform: rotate(359deg);
   }
+}
+.testimonials .testimonial-title h3 {
+  font-size: 18px;
+}
+.testimonials .swiper {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonials .swiper .swiper-slide blockquote {
+  text-align: center;
+}
+.testimonials .swiper .swiper-slide blockquote p {
+  font-size: 40px;
+  color: #8f8f8f;
+}
+.testimonials .swiper .swiper-slide blockquote div {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+.testimonials .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.testimonials .swiper-slide img {
+  display: block;
+  width: 100%;
 }/*# sourceMappingURL=sample-04.css.map */

@@ -116,3 +116,41 @@ var swiper2 = new Swiper(".swiper2", {
     },
   },
 });
+
+var swiper3 = new Swiper(".swiper3", {
+  effect: "coverflow",
+  pagination: ".swiper-pagination3",
+  paginationClickable: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 1,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+  },
+  spaceBetween: 20,
+  loop: true,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    900: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});
