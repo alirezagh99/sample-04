@@ -388,3 +388,21 @@ body {
   }
 }
 // end newsletter
+// start pics
+.pics {
+  padding-top: 100px;
+  .pics-btn-wrapper {
+    margin-top: -40px;
+  }
+  .pics-btn-wrapper {
+    button {
+      margin: auto;
+      background-color: #212529;
+      color: white;
+      font-size: 16px;
+      transition: 0.2s ease;
+      padding: 5px 30px;
+    }
+  }
+}
+// end pics

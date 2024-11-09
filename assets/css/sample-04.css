@@ -325,4 +325,19 @@ body {
 }
 .newsletter button:hover {
   background-color: rgba(33, 37, 41, 0.7803921569);
+}
+
+.pics {
+  padding-top: 100px;
+}
+.pics .pics-btn-wrapper {
+  margin-top: -40px;
+}
+.pics .pics-btn-wrapper button {
+  margin: auto;
+  background-color: #212529;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s ease;
+  padding: 5px 30px;
 }/*# sourceMappingURL=sample-04.css.map */
