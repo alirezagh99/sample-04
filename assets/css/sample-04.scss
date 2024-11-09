@@ -1,4 +1,5 @@
 $bg-color: #f1f1f0;
+$font-size-medium: 16px;
 @import url(./navbar-sample04.scss);
 body {
   background-color: $bg-color;
@@ -157,3 +158,26 @@ body {
     }
   }
 }
+// end features
+// start categories
+.categories {
+  background-color: white;
+  a {
+    text-decoration: none;
+    img {
+      transition: 0.3s ease;
+    }
+    p {
+      color: #8f8f8f;
+      font-size: $font-size-medium;
+      padding-left: 5px;
+      padding-top: 5px;
+    }
+    :hover {
+      img {
+        padding: 10px;
+      }
+    }
+  }
+}
+// end categories
