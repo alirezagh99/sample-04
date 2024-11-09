@@ -298,4 +298,31 @@ body {
 .blog .blog-item p {
   color: rgb(108, 117, 125);
   font-size: 18px;
+}
+
+.newsletter {
+  background: url(../img/pattern-bg.png);
+}
+.newsletter h3 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.newsletter input {
+  width: 50%;
+  height: 48px;
+  margin: auto;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.newsletter button {
+  width: 50%;
+  height: 47px;
+  margin: auto;
+  background-color: #212529;
+  color: white;
+  font-size: 20px;
+  transition: 0.2s ease;
+}
+.newsletter button:hover {
+  background-color: rgba(33, 37, 41, 0.7803921569);
 }/*# sourceMappingURL=sample-04.css.map */

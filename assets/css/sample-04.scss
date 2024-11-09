@@ -360,3 +360,31 @@ body {
   }
 }
 // end blog
+// start newsletter
+.newsletter {
+  background: url(../img/pattern-bg.png);
+  h3 {
+    font-size: 45px;
+    font-weight: 400;
+  }
+  input {
+    width: 50%;
+    height: 48px;
+    margin: auto;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  button {
+    width: 50%;
+    height: 47px;
+    margin: auto;
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s ease;
+  }
+  button:hover {
+    background-color: #212529c7;
+  }
+}
+// end newsletter
