@@ -156,4 +156,47 @@ body {
 }
 .categories a :hover img {
   padding: 10px;
+}
+
+.new-arrivals {
+  background-color: white;
+}
+.new-arrivals .arrivals-title h4 {
+  font-weight: 400;
+}
+.new-arrivals .arrivals-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  line-height: 36px;
+}
+.new-arrivals .swiper2 a {
+  text-decoration: none;
+  color: black;
+}
+.new-arrivals .swiper2 .swiper-button-prev2,
+.new-arrivals .swiper2 .swiper-button-next2 {
+  color: #8f8f8f;
+}
+.new-arrivals .swiper2 .swiper-slide .img-wrapper img {
+  transition: 0.3s ease;
+}
+.new-arrivals .swiper2 .swiper-slide .img-wrapper :hover {
+  padding: 10px;
+}
+.new-arrivals .swiper2 .swiper-slide .arrival-price {
+  height: 31px;
+  overflow: hidden;
+}
+.new-arrivals .swiper2 .swiper-slide .arrival-price .price {
+  transition: 0.3s ease;
+}
+.new-arrivals .swiper2 .swiper-slide .arrival-price :hover {
+  transform: translateY(-50%);
+}
+
+.swiper2 {
+  width: 100%;
+  height: 300px;
 }/*# sourceMappingURL=sample-04.css.map */
