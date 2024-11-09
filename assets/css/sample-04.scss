@@ -235,3 +235,22 @@ body {
   height: 300px;
 }
 // end new arrivals
+// start winter collection
+.winter-collection {
+  h3 {
+    font-size: 45px;
+    font-weight: 400;
+  }
+  p {
+    font-size: $font-size-medium + 2;
+    color: #8c907e;
+  }
+  .win-btn {
+    font-size: $font-size-medium;
+    background-color: #212529;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+  }
+}
+// end winter collection
