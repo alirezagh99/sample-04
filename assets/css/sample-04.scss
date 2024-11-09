@@ -254,3 +254,31 @@ body {
   }
 }
 // end winter collection
+// start video
+.video {
+  .video-img-wrapper {
+    left: 0;
+    top: 0;
+    .img-text {
+      animation: rotation 50s infinite linear;
+    }
+    .icon-wrapper {
+      left: 49.5%;
+      top: 49%;
+      color: white;
+      i {
+        font-size: $font-size-medium + 8;
+      }
+    }
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+// end video
