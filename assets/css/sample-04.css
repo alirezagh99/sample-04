@@ -161,6 +161,9 @@ body {
 .new-arrivals {
   background-color: white;
 }
+.new-arrivals .desc-wrapper {
+  padding-left: 10px;
+}
 .new-arrivals .arrivals-title h4 {
   font-weight: 400;
 }
@@ -340,4 +343,45 @@ body {
   font-size: 16px;
   transition: 0.2s ease;
   padding: 5px 30px;
+}
+
+.footer .footer-left p {
+  font-size: 18px;
+  color: #8f8f8f;
+}
+.footer .footer-left .icons a {
+  color: #212529;
+}
+.footer .footer-left .icons i {
+  font-size: 21px;
+  padding-right: 10px;
+}
+.footer .quick-links,
+.footer .help-info {
+  color: #212529;
+}
+.footer .quick-links h5,
+.footer .help-info h5 {
+  font-size: 22px;
+}
+.footer .quick-links .links a,
+.footer .help-info .links a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 16px;
+}
+.footer .contact-us h5 {
+  font-size: 22px;
+}
+.footer .contact-us .quest {
+  margin-bottom: 5px;
+}
+.footer .contact-us .quest div {
+  color: #8c907e;
+  font-size: 18px;
+}
+.footer .contact-us .quest a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 18px;
 }/*# sourceMappingURL=sample-04.css.map */

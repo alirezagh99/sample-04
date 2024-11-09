@@ -184,6 +184,9 @@ body {
 // start new arrivals
 .new-arrivals {
   background-color: white;
+  .desc-wrapper {
+    padding-left: 10px;
+  }
   .arrivals-title {
     h4 {
       font-weight: 400;
@@ -406,3 +409,53 @@ body {
   }
 }
 // end pics
+// start footer
+.footer {
+  .footer-left {
+    p {
+      font-size: 18px;
+      color: #8f8f8f;
+    }
+    .icons {
+      a {
+        color: #212529;
+      }
+      i {
+        font-size: $font-size-medium + 5;
+        padding-right: 10px;
+      }
+    }
+  }
+  .quick-links,
+  .help-info {
+    color: #212529;
+    h5 {
+      font-size: 22px;
+    }
+    .links {
+      a {
+        text-decoration: none;
+        color: #212529;
+        font-size: $font-size-medium;
+      }
+    }
+  }
+  .contact-us {
+    h5 {
+      font-size: 22px;
+    }
+    .quest {
+      margin-bottom: 5px;
+      div {
+        color: #8c907e;
+        font-size: $font-size-medium + 2;
+      }
+      a {
+        text-decoration: none;
+        color: #212529;
+        font-size: $font-size-medium + 2;
+      }
+    }
+  }
+}
+// end footer
