@@ -7,3 +7,5 @@ searchIcon.addEventListener("click", function () {
 remove.addEventListener("click", function () {
   searchPopup.style.display = "none";
 });
+
+AOS.init();
