@@ -322,3 +322,41 @@ body {
   }
 }
 // end testimonials
+// start related products
+
+// end related products
+// start blog
+.blog {
+  .blog-title {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    h4 {
+      font-weight: 400;
+    }
+  }
+  .blog-item {
+    .img-wrapper {
+      margin-bottom: 10px;
+    }
+    h5 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      font-weight: 400;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .blog-date {
+      color: rgb(108 117 125);
+      margin-bottom: 10px;
+    }
+    p {
+      color: rgb(108 117 125);
+      font-size: $font-size-medium + 2;
+    }
+  }
+}
+// end blog

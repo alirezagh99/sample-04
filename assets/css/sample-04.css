@@ -270,4 +270,32 @@ body {
 .testimonials .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.blog .blog-title a {
+  text-decoration: none;
+  color: black;
+}
+.blog .blog-title h4 {
+  font-weight: 400;
+}
+.blog .blog-item .img-wrapper {
+  margin-bottom: 10px;
+}
+.blog .blog-item h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.blog .blog-item a {
+  text-decoration: none;
+  color: black;
+}
+.blog .blog-item .blog-date {
+  color: rgb(108, 117, 125);
+  margin-bottom: 10px;
+}
+.blog .blog-item p {
+  color: rgb(108, 117, 125);
+  font-size: 18px;
 }/*# sourceMappingURL=sample-04.css.map */
